@@ -13,6 +13,7 @@ struct ContentView: View {
     
     var body: some View {
         Form {
+            Spacer()
             VStack {
                 Text("I am finding this subject \(options.feelings[selectedOption])")
                     .padding()
@@ -23,6 +24,8 @@ struct ContentView: View {
                         selectedOption += 1
                     }
                 })
+                
+                Spacer()
             }
         }
     }
