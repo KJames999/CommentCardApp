@@ -14,6 +14,7 @@
 		A6EF400E27B282F400ECCE9D /* CommentCardAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF400D27B282F400ECCE9D /* CommentCardAppTests.swift */; };
 		A6EF401827B282F400ECCE9D /* CommentCardAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF401727B282F400ECCE9D /* CommentCardAppUITests.swift */; };
 		A6EF401A27B282F400ECCE9D /* CommentCardAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF401927B282F400ECCE9D /* CommentCardAppUITestsLaunchTests.swift */; };
+		A6EF402727B285C000ECCE9D /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF402627B285C000ECCE9D /* Options.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A6EF401327B282F400ECCE9D /* CommentCardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommentCardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EF401727B282F400ECCE9D /* CommentCardAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardAppUITests.swift; sourceTree = "<group>"; };
 		A6EF401927B282F400ECCE9D /* CommentCardAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6EF402627B285C000ECCE9D /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				A6EF3FFE27B282F300ECCE9D /* ContentView.swift */,
 				A6EF400027B282F400ECCE9D /* Assets.xcassets */,
 				A6EF400227B282F400ECCE9D /* Preview Content */,
+				A6EF402627B285C000ECCE9D /* Options.swift */,
 			);
 			path = CommentCardApp;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6EF3FFF27B282F300ECCE9D /* ContentView.swift in Sources */,
+				A6EF402727B285C000ECCE9D /* Options.swift in Sources */,
 				A6EF3FFD27B282F300ECCE9D /* CommentCardAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
