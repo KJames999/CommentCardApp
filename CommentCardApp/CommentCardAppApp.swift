@@ -12,7 +12,7 @@ struct CommentCardAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootTabView()
         }
     }
 }

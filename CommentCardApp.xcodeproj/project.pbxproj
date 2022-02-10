@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A666872227B53C3500822C05 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A666872127B53C3500822C05 /* RootTabView.swift */; };
+		A666872627B53D0400822C05 /* Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A666872527B53D0400822C05 /* Generate.swift */; };
+		A666872827B53ED400822C05 /* ChangeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A666872727B53ED400822C05 /* ChangeOptions.swift */; };
 		A6EF3FFD27B282F300ECCE9D /* CommentCardAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF3FFC27B282F300ECCE9D /* CommentCardAppApp.swift */; };
 		A6EF3FFF27B282F300ECCE9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF3FFE27B282F300ECCE9D /* ContentView.swift */; };
 		A6EF400127B282F400ECCE9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6EF400027B282F400ECCE9D /* Assets.xcassets */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A666872127B53C3500822C05 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		A666872527B53D0400822C05 /* Generate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generate.swift; sourceTree = "<group>"; };
+		A666872727B53ED400822C05 /* ChangeOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeOptions.swift; sourceTree = "<group>"; };
 		A6EF3FF927B282F300ECCE9D /* CommentCardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommentCardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EF3FFC27B282F300ECCE9D /* CommentCardAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardAppApp.swift; sourceTree = "<group>"; };
 		A6EF3FFE27B282F300ECCE9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,9 +104,12 @@
 			children = (
 				A6EF3FFC27B282F300ECCE9D /* CommentCardAppApp.swift */,
 				A6EF3FFE27B282F300ECCE9D /* ContentView.swift */,
+				A666872727B53ED400822C05 /* ChangeOptions.swift */,
 				A6EF400027B282F400ECCE9D /* Assets.xcassets */,
 				A6EF400227B282F400ECCE9D /* Preview Content */,
 				A6EF402627B285C000ECCE9D /* Options.swift */,
+				A666872127B53C3500822C05 /* RootTabView.swift */,
+				A666872527B53D0400822C05 /* Generate.swift */,
 			);
 			path = CommentCardApp;
 			sourceTree = "<group>";
@@ -262,6 +271,9 @@
 			files = (
 				A6EF3FFF27B282F300ECCE9D /* ContentView.swift in Sources */,
 				A6EF402727B285C000ECCE9D /* Options.swift in Sources */,
+				A666872827B53ED400822C05 /* ChangeOptions.swift in Sources */,
+				A666872627B53D0400822C05 /* Generate.swift in Sources */,
+				A666872227B53C3500822C05 /* RootTabView.swift in Sources */,
 				A6EF3FFD27B282F300ECCE9D /* CommentCardAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
