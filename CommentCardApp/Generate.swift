@@ -15,7 +15,9 @@ struct Generate: View {
         
         VStack {
             Text("I am finding this subject as a whole \(options.feelings[changeOptions.selectedSubjectOption]). I am finding the speed of divs \(options.topic[changeOptions.selectedTopicOption]). I am finding the speed of divs \(options.speed[changeOptions.selectedSpeedOption]). I am finding the EW's \(options.ew[changeOptions.selectedEwOption]).")
+            
         }
+        
         
     }
 }

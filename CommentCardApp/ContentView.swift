@@ -12,9 +12,18 @@ struct ContentView: View {
     @ObservedObject var changeOptions: ChangeOptions
     @State private var happiness = 1.0
     @State private var isEditing = false
+    @State var subjects = "Choose subject"
     
     var body: some View {
         VStack {
+            
+            Menu(subjects) {
+                Button("maths", action: {subjects = "maths"})
+                Button("computer science", action: {subjects = "computer science"})
+                Button("economics", action: {subjects = "economics"})
+                Button("physics", action: {subjects = "physics"})
+            }
+
             
             Text("Subject: \(options.feelings[changeOptions.selectedSubjectOption])")
                     .padding()
@@ -52,11 +61,6 @@ struct ContentView: View {
                         changeOptions.selectedEwOption += 1
                     }
                 })
-            Slider(
-                value: $happiness,
-                in: 0...10
-            )
-            Text("Overall Happiness: \(Int(happiness))")
                 
         }
     }
